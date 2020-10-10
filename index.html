@@ -1,78 +1,114 @@
-<!--Caroline Oberg-->
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
-<title>Home Page 1</title>
+<title>Home Page</title>
+<!--style in head section of index-->
+<!--see tips and tricks to see class slector-->
+<style>
+table{
+    width:320px; 
+  }
+th{
+    height:33px;
+}
+td{
+    text-align: center;float;
+}
+table,td,th{
+    border-width: 1px;
+    border-style:solid;
+  }
+table,td,th{
+    margin:auto;
+  }
+td,th{
+    padding:10px;
+  }
+td,th{
+    border-bottom-width: 1px;
+    border-style: solid;
+    border-bottom-color:black;
+  }
+tr:hover {
+    background-color:#7E9CD9
+  }
+#summary{
+  font-size: 30px;font-family:"fancy"
+}
+</style>
+ <link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
 	<header>
-		<!-- Nav section -->
       <nav>
         <ul>
           <li>
             <a href="index.html">Home Page</a>
           </li>
-
           <li>
             <a href="about.html">About</a>
           </li>
-
           <li>
             <a href="tools.html">Tools</a>
           </li>
           <li>
             <a href="seeds.html">Seeds</a>
-          </li>          
+          </li>  
+          <li>
+          <a href="Tips_Tricks.html">Tips & Tricks</a>
+          </li>
+          <li>
+          <a href="Top_10_plants.html">Top 10 plants for the garden</a>
+           </li>
         </ul>
       </nav>
 		<h1>Simpson Garden Center</h1>
-	</header>
+</header>
 	
 <h1>Home Page</h1>
 
-<p>Welcome to the Simpson Garden Center!</p>
-<p>We have everything you need to know about our store on our website- everything rom garden tools, to seeds, to store hours.</p>
-
-<p> If you want to know more about us, feel free to visit the about page. Otherwise our store hours are listed below. Please drop in any time we are open. </p>
+<p id="summary">Welcome to the Simpson Garden Center!</p>
+<p>We have everything you need to know about our store on our website- everything from garden tools, to seeds, to store hours.</p>
+<!--inline style-->
+<!-- added about link-->
+<p style="text-align:left;font-family:times">If you want to know more about us, feel free to visit the <a href="about.html">about</a> page. Otherwise our store hours are listed below. Please drop in any time we are open.</p>
 <table>
   <tr>
-    <td>Day</td>
-    <td>Hours</td>
+    <th><b>Day</b></th>
+    <th><b>Hours</b></th>
   </tr>
   <tr>
-    <td>Sunday</td>
+    <td><center>Sunday</center></td>
     <td>8:00 a.m.-6:00 p.m.</td>
   </tr>
   <tr>
-    <td>Monday</td>
+    <td><center>Monday</center></td>
     <td>7:00 a.m.-8:00 p.m.</td>
   </tr>
   <tr>
-    <td>Tuesday</td>
+    <td><center>Tuesday</center></td>
     <td>7:00 a.m.-8:00 p.m.</td>
   </tr>
   <tr>
-    <td>Wednesday</td>
+    <td><center>Wednesday</center></td>
     <td>7:00 a.m.-8:00 p.m.</td>
   </tr>
   <tr>
-    <td>Thursday</td>
+    <td><center>Thursday</center></td>
     <td>7:00 a.m.-8:00 p.m.</td>
   </tr>
   <tr>
-    <td>Friday</td>
+    <td><center>Friday</center></td>
     <td>7:00 a.m.-8:00 p.m.</td>
   </tr>
   <tr>
-    <td>Saturday</td>
+    <td><center>Saturday</center></td>
     <td>7:00 a.m.- 6:00 p.m.</td>
   </tr>
 
 </table>
 <footer>
-  Copyright 2020 by Caroline Oberg
+<p>&copy;2020 by Domnick Miyeng</p>
 </footer>
 </body>
 </html>
