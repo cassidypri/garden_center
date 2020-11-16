@@ -2,43 +2,48 @@
 
 <html lang="en">
 <head>
-  <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> 
+   <meta charset="utf-8">
+
   <title>About the Garden club</title>
-  <style>
-  h1 {
-      text-align: center;
-      font-size: 32px;
-  }
-  </style> 
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
-</head>
 
-<body>
-  <header>
-    <nav>
-      <ul>
-          <li>
-            <a href="index.html">Home Page</a>
-          </li>
+    
+  
+    <!-- Main CSS styles for Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-          <li>
-            <a href="about.html">About</a>
-          </li>
-          <li>
-            <a href="tools.html">Tools</a>
-          </li>
-          <li>
-            <a href="seeds.html">Seeds</a>
-          </li>  
-          <li>
-          <a href="Tips_Tricks.html">Tips & Tricks</a>
-          </li>
-          <li>
-          <a href="Top_10_plants.html">Top 10 plants for the garden</a>
-           </li>
-      </ul>
-    </nav>
-  </header>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.2/sandstone/bootstrap.min.css">
+  </head>
+
+  <body>
+
+    <header>
+      <!-- For more info about the navbar, see:
+      https://getbootstrap.com/docs/4.0/components/navbar/
+      --->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.htm"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="index.html">Home<span class="sr-only">
+      </span></a>
+      
+      <a class="nav-item nav-link" href="about.html">About</a>
+      <a class="nav-item nav-link" href="tools.html">Tools</a>
+      <a class="nav-item nav-link" href="seeds.html">Seeds</a>
+      <a class="nav-item nav-link" href="Tips_Tricks.html">Tips & Tricks</a>
+      <a class="nav-item nav-link" href="Top_10_plants.html">Top 10 Plants</a>
+  </div>
+  </div>
+</nav>
+    </header>
+ 
+    <div class="container">
+        
  
   <section>
     <h1>About Us</h1>
@@ -54,34 +59,23 @@
 
   <img src="garden2.jpg">
 <!-- added linked text with in this paragraph-->
-   <p>These gardens are beautiful and we can help turn your not so good garden into these garden. On our page we have <a href="Tips_Tricks.html">Tips & Tricks</a> and a list of <a href="tools.html">Tools</a> to use.
+  <p>These gardens are beautiful and we can help turn your not so good garden into these garden. On our page we have <a href="Tips_Tricks.html">Tips & Tricks</a> and a list of <a href="tools.html">Tools</a> to use.</p>
+ </article>
     <!-- added all contact information-->
-  <h3>Contact Information</h3>
-<table>
-  <thead>
-    <tr>
-      <th><em><b>Form</b></em></th>
-      <th><em><b>contact information</b></em></th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b>Phone</b></td>
-     <td>1-(800)-928-0380</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <td><b>Email</b></td>
-      <td>Simpson.Garden@simpson.edu</td> 
-    </tr>
-  </tfoot>
-</table>
-<article>
+    <div class="jumbotron">
+  <h1 class="display-4">Contact Information</h1>
+  <p class="lead">We look forward to hearing from you!</p>
+  <hr class="my-4">
+  <p class="lead">
+    <a class="btn btn-primary btn-lg" href="contactinfo.html" role="button">Contact Info</a>
+  </p>
   </section>
   <footer>
-<!-- added copyright sign to all pages-->
           <p>&copy;2020 by Domnick Miyeng</p>
   </footer>
+</div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 </body>
 </html>
